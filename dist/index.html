@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Teduh 21</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">LOGO</a>
+        </div>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="#">About</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">Series</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">Other</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </header>
+ 
+        <div class="hero">
+            <h1>Teduh 21</h1>
+        </div>
+    
+        <div class="container">
+            <div class="short-desc" data-aos="fade-down">
+                <h2>About</h2>
+                <article data-aos="slide-left">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore animi at suscipit doloremque, ipsum totam quidem vel fugiat ratione quos?</p>
+                </article>
+            </div>
+            <div class="series" data-aos="fade-up">
+                <div class="series-desc">
+                    <h2>Teduh 21 Series</h2>
+                    <p data-aos="slide-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quis, quia sapiente ex maiores in pariatur ipsam minus doloremque alias, optio, nam odit officia ea?</p>
+                </div>
+                <div class="carousel js-flickity"
+                    data-flickity-options='{ "wrapAround" : true}'
+                    data-aos="slide-left">
+                    <div class="carousel-cell">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2020. Made by me</p>
+        </footer>
+    
+    
+    <script src="js/main.js"></script>
+    <script src="js/flickity.pkgd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
